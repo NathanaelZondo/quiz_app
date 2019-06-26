@@ -1,0 +1,41 @@
+.content{
+align-content: center;
+align-items:center;
+ color:white;
+ height:100vh;
+ width: 100vw;
+ background-position-x:30%; 
+ background-position-y:30%; 
+ font-size: 15px;
+ background: 
+ linear-gradient(rgba(0, 0, 0, 0.432)35%,rgba(0, 0, 0, 0.433),rgba(0, 0, 0, 0.433)),url(https://images.pexels.com/photos/326168/pexels-photo-326168.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260)   
+}
+button{
+ background:rgba(218, 149, 70, 0.329);
+ color:rgb(245, 245, 245);
+ width:100px;
+ height:40px;
+ border-radius: 35%;
+ border-style: outset;
+ border-color: rgb(255, 255, 255);
+    border-width:1.5px;
+    border-style: outset;
+    padding: auto;
+  
+}
+
+img{
+ radius:100%;   
+}
+
+table{
+    border-style: solid;
+
+    border-style: outset;
+    border-width: 1px;
+    width:410px;
+    align-content: center;
+    align-items: center;
+    vertical-align: 50%;
+    border-color: rgb(238, 155, 0);
+}

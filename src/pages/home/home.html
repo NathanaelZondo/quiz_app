@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title align = "center">
+      MAIN PAGE
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+<h2 align = "center">Telematic Quiz</h2>
+
+<table height ="auto">
+  <tr><p align = "center">Select An Option Below</p></tr>
+<tr *ngFor = "let x of option;let k = index" align = "center"height = "100px" style="padding-top:80px"><br><br><button (click) = "aas(k)" >{{x.opt}}</button></tr>
+
+</table>
+</ion-content>
